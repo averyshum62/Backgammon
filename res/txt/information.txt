@@ -1,0 +1,26 @@
+Welcome to Backgammon!
+
+by Avery Shum and Marco Yang
+
+> GAMEPLAY
+
+    Backgammon is a two player game played on a board of twenty-four triangles that alternate in colour, known as pips. Pips are numbered 1 to 24, and grouped in four quadrants with six triangles each. Each player has 15 stones.
+
+    The object of the game is to move all of your stones into your home board, then move them into the home pip. The home board is the final six pips for each colour (19-24). Black stones move clockwise around the board and white stones move counterclockwise around the board. Stones can only move into the home pip if all stones are in the home board. 
+
+    To begin each player's turn, that player rolls the pair of dice. The roll of a die indicates how many pips forward the player may move a stone. Moves may be "chained" together, using one die after another, but each individual move in the chain must be valid. A roll of doubles means each die can be played twice. For example, a roll of 2 and 2 means the player has four 2's to move.
+
+Stones may move from one pip to another if:
+    1. The end pip has no stones on it
+    2. The end pip has stones of the same colour as the stone being moved
+    3. The end pip has one stone on it of the opposite colour (in this case, the stone on the end pip gets knocked to the bar, the centre of the board)
+    4. If a player has stones on the bar, those stones must be moved into play before any other moves can be made
+    5. Stones may move to the home pip only if all stones are in the home board (last quadrant of the board)
+
+> CONTROLS
+
+    When a dice roll has been made, all possible end pips are highlighted.
+
+    Hovering over a potential end pip will highlight a move that ends at that pip: the stone to move gets a green ring, and any intermediate pips receive a fainter highlight.
+
+    Right-clicking over that end pip will then cycle through all the possible moves that end there, if there are multiple options. Left-click to play the move when you have selected the one you want.
